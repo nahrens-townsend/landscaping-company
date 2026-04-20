@@ -46,3 +46,6 @@ test-results/
 
 # Tools
 .playwright-mcp/
+
+# Local Netlify folder
+.netlify
