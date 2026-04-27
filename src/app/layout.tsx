@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Oswald, Open_Sans } from 'next/font/google'
+import { Oswald } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
@@ -11,14 +11,6 @@ const oswald = Oswald({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-display',
-  display: 'swap',
-})
-
-const openSans = Open_Sans({
-  subsets: ['latin'],
-  weight: ['300', '400', '600', '700', '800'],
-  style: ['normal', 'italic'],
-  variable: '--font-body',
   display: 'swap',
 })
 
@@ -94,7 +86,7 @@ const websiteJsonLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${oswald.variable} ${openSans.variable}`}>
+    <html lang="en" className={oswald.variable}>
       <head>
         <link rel="preconnect" href="https://images.unsplash.com" />
       </head>
