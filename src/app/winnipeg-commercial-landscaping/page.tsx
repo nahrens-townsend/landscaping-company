@@ -5,24 +5,24 @@ import { ArrowRight, Building, Sprout, Wrench, ClipboardList } from 'lucide-reac
 import SectionWrapper from '@/components/ui/SectionWrapper'
 
 export const metadata: Metadata = {
-  title: 'Commercial Landscaping Winnipeg — Stonefield Landscaping',
+  title: 'Commercial Landscaping Winnipeg — Sunny View Exteriors',
   description:
-    'Stonefield Landscaping delivers professional commercial landscape design, construction, and maintenance for Winnipeg businesses, corporate campuses, and multi-family developments.',
+    'Sunny View Exteriors delivers professional commercial landscape design, construction, and maintenance for Winnipeg businesses, corporate campuses, and multi-family developments.',
   openGraph: {
-    title: 'Commercial Landscaping Winnipeg — Stonefield Landscaping',
+    title: 'Commercial Landscaping Winnipeg — Sunny View Exteriors',
     description:
       'Professional commercial landscaping in Winnipeg — design, construction, and ongoing maintenance for businesses, developers, and institutions.',
-    url: 'https://stonefieldlandscaping.netlify.app/winnipeg-commercial-landscaping',
+    url: 'https://sunnyviewexteriors.netlify.app/winnipeg-commercial-landscaping',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1569172122301-bc5008bc09c5?w=1200&h=630&fit=crop&auto=format&q=80',
         width: 1200,
         height: 630,
-        alt: 'Commercial landscaping Winnipeg — Stonefield Landscaping',
+        alt: 'Commercial landscaping Winnipeg — Sunny View Exteriors',
       },
     ],
   },
-  alternates: { canonical: 'https://stonefieldlandscaping.netlify.app/winnipeg-commercial-landscaping' },
+  alternates: { canonical: 'https://sunnyviewexteriors.netlify.app/winnipeg-commercial-landscaping' },
 }
 
 const services = [
@@ -68,8 +68,8 @@ export default function CommercialPage() {
               <p>
                 Commercial landscape projects demand more than good design — they require rigorous project
                 management, reliable scheduling, and partners who understand the complexity of large-scale builds.
-                Stonefield Landscaping has delivered for some of Winnipeg&apos;s most demanding commercial clients
-                for over two decades.
+                Sunny View Exteriors has delivered for Winnipeg commercial clients who demand quality and
+                professionalism on every project.
               </p>
               <p>
                 Whether you&apos;re a developer looking for a landscape contractor who can keep pace with your
@@ -113,7 +113,7 @@ export default function CommercialPage() {
 
       <SectionWrapper className="bg-green-deep text-white">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center mb-16">
-          {[['100+', 'Commercial Projects'], ['25+', 'Years in Manitoba'], ['50+', 'Active Maintenance Clients']].map(
+          {[['Residential & Commercial', 'Project Experience'], ['Winnipeg', 'Based & Proud'], ['100%', 'Client Satisfaction']].map(
             ([num, label]) => (
               <div key={label}>
                 <p className="font-display text-5xl font-semibold text-gold mb-2">{num}</p>

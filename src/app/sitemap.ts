@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 import { galleryCategories } from '@/data/gallery'
 import { blogPosts } from '@/data/blogPosts'
 
-const BASE = 'https://stonefieldlandscaping.netlify.app'
+const BASE = 'https://sunnyviewexteriors.netlify.app'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [

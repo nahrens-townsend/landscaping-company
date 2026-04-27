@@ -7,22 +7,22 @@ import SectionWrapper from '@/components/ui/SectionWrapper'
 export const metadata: Metadata = {
   title: 'Landscape Pricing Winnipeg — What Does Landscaping Cost?',
   description:
-    "Honest, transparent landscape pricing for Winnipeg homeowners. Stonefield Landscaping explains real project costs — from $15K foundation projects to $100K+ custom outdoor living spaces.",
+    "Honest, transparent landscape pricing for Winnipeg homeowners. Sunny View Exteriors explains real project costs — from foundation projects to custom outdoor living spaces.",
   openGraph: {
     title: 'Landscape Pricing Winnipeg — What Does Landscaping Cost?',
     description:
-      'Honest landscape pricing in Winnipeg. Understand real project costs — foundation projects, mid-range renovations, and luxury outdoor living — from Stonefield Landscaping.',
-    url: 'https://stonefieldlandscaping.netlify.app/winnipeg-landscape-pricing',
+      'Honest landscape pricing in Winnipeg. Understand real project costs — foundation projects, mid-range renovations, and luxury outdoor living — from Sunny View Exteriors.',
+    url: 'https://sunnyviewexteriors.netlify.app/winnipeg-landscape-pricing',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=1200&h=630&fit=crop&auto=format&q=80',
         width: 1200,
         height: 630,
-        alt: 'Landscape pricing Winnipeg — Stonefield Landscaping',
+        alt: 'Landscape pricing Winnipeg — Sunny View Exteriors',
       },
     ],
   },
-  alternates: { canonical: 'https://stonefieldlandscaping.netlify.app/winnipeg-landscape-pricing' },
+  alternates: { canonical: 'https://sunnyviewexteriors.netlify.app/winnipeg-landscape-pricing' },
 }
 
 const tiers = [

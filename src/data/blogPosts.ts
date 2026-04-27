@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
       "Winnipeg winters are notorious, but with the right landscaping choices, you can enjoy your outdoor space well into October — and even year-round.",
     date: '2024-03-15',
     category: 'Design Tips',
-    author: 'Owen Hartley',
+    author: 'Zohaib Cheema',
     coverImage: 'https://images.unsplash.com/photo-1767247795570-8b82bbd7307a?w=1200&h=700&fit=crop&auto=format&q=80',
     content: `Winnipeg's four-season climateis one of the most dramatic in Canada — that's actually an opportunity, not a limitation. With thoughtful planning, the right fire features, sheltered areas, and cold-hardy plant selections, you can dramatically extend the enjoyment you get from your outdoor space.
 
@@ -48,7 +48,7 @@ Select ornamental grasses, late-blooming perennials, and shrubs with winter stru
       "In a world of mass-produced pavers, natural stone stands apart. Here's why we recommend it — and when manufactured alternatives make sense.",
     date: '2024-02-20',
     category: 'Materials',
-    author: 'Mara Voss',
+    author: 'Zohaib Cheema',
     coverImage: 'https://images.unsplash.com/photo-1659242484336-edb4f31b0d0c?w=1200&h=700&fit=crop&auto=format&q=80',
     content: `Natural stone is one of our most-recommended materials, and for good reason. Unlike manufactured pavers that can look identical across thousands of properties, natural stone carries unique character — each piece is different in colour, texture, and form.
 
@@ -73,7 +73,7 @@ High-quality manufactured pavers have their place. For driveways, consistent col
       'A thoughtfully designed landscape can become a habitat haven — supporting birds, pollinators, and local wildlife without sacrificing beauty.',
     date: '2024-01-10',
     category: 'Sustainability',
-    author: 'Nora Blackwell',
+    author: 'Zohaib Cheema',
     coverImage: 'https://images.unsplash.com/photo-1732135296627-3551f399002d?w=1200&h=700&fit=crop&auto=format&q=80',
     content: `One of the most rewarding shifts in landscape design philosophy over the past decade has been the move toward ecological function — creating outdoor spaces that actively support local ecosystems.
 
@@ -100,7 +100,7 @@ Conventional lawn is essentially a biological desert. Every square foot converte
       "An outdoor kitchen is one of the highest-ROI additions to any home. Here's how to plan yours — and the decisions that matter most.",
     date: '2023-12-05',
     category: 'Features',
-    author: 'Owen Hartley',
+    author: 'Zohaib Cheema',
     coverImage: 'https://images.unsplash.com/photo-1765288108580-85f0e03f7b18?w=1200&h=700&fit=crop&auto=format&q=80',
     content: `Outdoor kitchens have becomeone of our most-requested features. A well-designed outdoor kitchen extends your entertaining space, adds significant value to your property, and transforms summer hosting.
 

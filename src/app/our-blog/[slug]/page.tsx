@@ -18,9 +18,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = blogPosts.find((p) => p.slug === params.slug)
   if (!post) return {}
-  const canonical = `https://stonefieldlandscaping.netlify.app/our-blog/${post.slug}`
+  const canonical = `https://sunnyviewexteriors.netlify.app/our-blog/${post.slug}`
   return {
-    title: `${post.title} | Stonefield Landscaping Blog`,
+    title: `${post.title} | Sunny View Exteriors Blog`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
@@ -91,7 +91,7 @@ export default function BlogPostPage({ params }: Props) {
   if (!post) notFound()
 
   const related = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3)
-  const canonicalUrl = `https://stonefieldlandscaping.netlify.app/our-blog/${post.slug}`
+  const canonicalUrl = `https://sunnyviewexteriors.netlify.app/our-blog/${post.slug}`
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
@@ -101,8 +101,8 @@ export default function BlogPostPage({ params }: Props) {
     author: { '@type': 'Person', name: post.author },
     publisher: {
       '@type': 'Organization',
-      name: 'Stonefield Landscaping',
-      url: 'https://stonefieldlandscaping.netlify.app',
+      name: 'Sunny View Exteriors',
+      url: 'https://sunnyviewexteriors.netlify.app',
     },
     datePublished: post.date,
     image: `${post.coverImage.split('?')[0]}?w=1200&h=630&fit=crop&auto=format&q=80`,

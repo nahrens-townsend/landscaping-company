@@ -4,7 +4,7 @@ import './globals.css'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 
-const BASE_URL = 'https://stonefieldlandscaping.netlify.app'
+const BASE_URL = 'https://sunnyviewexteriors.netlify.app'
 const OG_IMAGE = 'https://images.unsplash.com/photo-1761637823293-f96835ec5038?w=1200&h=630&fit=crop&auto=format&q=80'
 
 const oswald = Oswald({
@@ -25,11 +25,11 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    template: '%s | Stonefield Landscaping',
-    default: "Stonefield Landscaping — Winnipeg's Premier Landscape Design Company",
+    template: '%s | Sunny View Exteriors',
+    default: "Sunny View Exteriors — Winnipeg Landscaping & Exterior Services",
   },
   description:
-    'Stonefield Landscaping creates exceptional outdoor living spaces in Winnipeg, Manitoba. Expert landscape design, custom patios, stonework, gardens, and full construction since 1995.',
+    'Sunny View Exteriors creates exceptional outdoor living spaces in Winnipeg, Manitoba. Expert landscape design, custom patios, stonework, gardens, and full exterior construction — built to last in Manitoba\'s climate.',
   keywords: [
     'landscaping Winnipeg',
     'landscape design Winnipeg',
@@ -39,14 +39,16 @@ export const metadata: Metadata = {
     'Manitoba landscape contractor',
     'residential landscaping Winnipeg',
     'commercial landscaping Winnipeg',
+    'Sunny View Exteriors',
+    'exterior services Winnipeg',
   ],
-  authors: [{ name: 'Stonefield Landscaping', url: BASE_URL }],
+  authors: [{ name: 'Sunny View Exteriors', url: BASE_URL }],
   openGraph: {
     type: 'website',
     locale: 'en_CA',
-    siteName: 'Stonefield Landscaping',
+    siteName: 'Sunny View Exteriors',
     url: BASE_URL,
-    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'Stonefield Landscaping — Winnipeg outdoor living spaces' }],
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'Sunny View Exteriors — Winnipeg outdoor living spaces' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -61,13 +63,12 @@ const localBusinessJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   additionalType: 'https://www.wikidata.org/wiki/Q1137655',
-  name: 'Stonefield Landscaping',
+  name: 'Sunny View Exteriors',
   url: BASE_URL,
   description:
-    'Stonefield Landscaping creates exceptional outdoor living spaces in Winnipeg, Manitoba. Expert landscape design, custom patios, stonework, and full construction since 1995.',
-  telephone: '(204) 555-0182',
-  email: 'info@example.com',
-  foundingDate: '1995',
+    'Sunny View Exteriors creates exceptional outdoor living spaces in Winnipeg, Manitoba. Expert landscape design, custom patios, stonework, and full exterior construction.',
+  telephone: '(204) 555-0100',
+  email: 'info@sunnyviewexteriors.ca',
   areaServed: [
     { '@type': 'City', name: 'Winnipeg', sameAs: 'https://en.wikipedia.org/wiki/Winnipeg' },
     { '@type': 'AdministrativeArea', name: 'Manitoba' },
@@ -79,15 +80,15 @@ const localBusinessJsonLd = {
     addressCountry: 'CA',
   },
   sameAs: [
-    'https://www.facebook.com/stonefieldlandscaping',
-    'https://www.instagram.com/stonefieldlandscaping',
+    'https://www.facebook.com/sunnyviewexteriors',
+    'https://www.instagram.com/sunnyviewexteriors',
   ],
 }
 
 const websiteJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Stonefield Landscaping',
+  name: 'Sunny View Exteriors',
   url: BASE_URL,
 }
 

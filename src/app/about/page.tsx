@@ -6,24 +6,24 @@ import TeamCard from '@/components/team/TeamCard'
 import { team } from '@/data/team'
 
 export const metadata: Metadata = {
-  title: 'Winnipeg Landscaping Company Since 1995 — About Stonefield',
+  title: 'Winnipeg Landscaping Company — About Sunny View Exteriors',
   description:
-    'Meet the team behind Stonefield Landscaping — experienced Winnipeg landscape designers, horticulturalists, and master craftspeople who have transformed outdoor spaces across Manitoba since 1995.',
+    'Meet the team behind Sunny View Exteriors — experienced Winnipeg landscaping professionals who transform outdoor spaces across Manitoba with craftsmanship and care.',
   openGraph: {
-    title: 'Winnipeg Landscaping Company Since 1995 — About Stonefield',
+    title: 'Winnipeg Landscaping Company — About Sunny View Exteriors',
     description:
-      'Meet the Stonefield Landscaping team — Winnipeg landscape designers, horticulturalists, and craftspeople building exceptional outdoor spaces since 1995.',
-    url: 'https://stonefieldlandscaping.netlify.app/about',
+      'Meet the Sunny View Exteriors team — Winnipeg landscaping professionals building exceptional outdoor spaces across Manitoba.',
+    url: 'https://sunnyviewexteriors.netlify.app/about',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1679200271071-2b3f17d1d1af?w=1200&h=630&fit=crop&auto=format&q=80',
         width: 1200,
         height: 630,
-        alt: 'Stonefield Landscaping team at work in Winnipeg',
+        alt: 'Sunny View Exteriors team at work in Winnipeg',
       },
     ],
   },
-  alternates: { canonical: 'https://stonefieldlandscaping.netlify.app/about' },
+  alternates: { canonical: 'https://sunnyviewexteriors.netlify.app/about' },
 }
 
 export default function AboutPage() {
@@ -33,7 +33,7 @@ export default function AboutPage() {
       <div className="relative h-72 md:h-96 bg-green-deep overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1679200271071-2b3f17d1d1af?w=1920&h=600&fit=crop&auto=format&q=80"
-          alt="Stonefield Landscaping team at work"
+          alt="Sunny View Exteriors team at work"
           fill
           className="object-cover opacity-40"
           priority
@@ -50,19 +50,19 @@ export default function AboutPage() {
       <SectionWrapper className="bg-stone-white">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-gold text-[10px] tracking-[0.35em] uppercase font-body font-medium mb-4">Since 1995</p>
+            <p className="text-gold text-[10px] tracking-[0.35em] uppercase font-body font-medium mb-4">Our Story</p>
             <h2 className="font-display text-4xl font-light text-green-deep leading-tight mb-6">
               Built on a Love for the Land
             </h2>
             <div className="space-y-4 text-stone-gray font-body text-sm leading-relaxed">
               <p>
-                Stonefield Landscaping was founded in Winnipeg with a single conviction: that outdoor spaces deserve the
-                same thoughtfulness and craftsmanship as the homes they surround. For nearly three decades, we&apos;ve
-                been proving that belief through every project we complete.
+                Sunny View Exteriors was founded in Winnipeg with a single conviction: that outdoor spaces deserve the
+                same thoughtfulness and craftsmanship as the homes they surround. We&apos;ve been proving that belief
+                through every project we complete.
               </p>
               <p>
-                What started as a small crew with a passion for stonework and horticulture has grown into one of
-                Manitoba&apos;s most respected landscape design and construction companies. But our values haven&apos;t
+                What started as a passion for great outdoor spaces has grown into one of
+                Manitoba&apos;s trusted landscaping and exterior services companies. But our values haven&apos;t
                 changed — we still approach every project with the same attention to detail and genuine care for our
                 clients&apos; outcomes.
               </p>
@@ -103,7 +103,7 @@ export default function AboutPage() {
             },
             {
               title: 'Stewardship',
-              text: "Manitoba's natural environment is extraordinary. We design landscapes that enhance it, selecting plants that support local ecosystems and using practices that preserve the soil we work with.",
+              text: "Manitoba's natural environment is extraordinary. We design landscapes that enhance it, selecting plants that support local ecosystems and using practices that preserve the soil and beauty of every property we work with.",
             },
           ].map((v) => (
             <div key={v.title} className="border-t-2 border-green-deep pt-8">

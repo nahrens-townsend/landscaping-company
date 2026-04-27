@@ -9,22 +9,22 @@ import { formatDate } from '@/lib/utils'
 export const metadata: Metadata = {
   title: 'Landscaping Blog — Tips & Ideas for Winnipeg Homeowners',
   description:
-    'Landscape design ideas, Winnipeg-specific plant guides, seasonal care tips, and expert insights from the Stonefield Landscaping team.',
+    'Landscape design ideas, Winnipeg-specific plant guides, seasonal care tips, and expert insights from the Sunny View Exteriors team.',
   openGraph: {
     title: 'Landscaping Blog — Tips & Ideas for Winnipeg Homeowners',
     description:
-      'Landscape design ideas, plant guides, and seasonal care tips for Winnipeg homeowners from the experts at Stonefield Landscaping.',
-    url: 'https://stonefieldlandscaping.netlify.app/our-blog',
+      'Landscape design ideas, plant guides, and seasonal care tips for Winnipeg homeowners from the experts at Sunny View Exteriors.',
+    url: 'https://sunnyviewexteriors.netlify.app/our-blog',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1727012896963-2fd364e34a99?w=1200&h=630&fit=crop&auto=format&q=80',
         width: 1200,
         height: 630,
-        alt: 'Stonefield Landscaping blog — Winnipeg landscape tips',
+        alt: 'Sunny View Exteriors blog — Winnipeg landscape tips',
       },
     ],
   },
-  alternates: { canonical: 'https://stonefieldlandscaping.netlify.app/our-blog' },
+  alternates: { canonical: 'https://sunnyviewexteriors.netlify.app/our-blog' },
 }
 
 export default function BlogPage() {

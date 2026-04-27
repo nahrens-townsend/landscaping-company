@@ -7,22 +7,22 @@ import ConsultationForm from '@/components/forms/ConsultationForm'
 export const metadata: Metadata = {
   title: 'Request a Free Landscape Consultation — Winnipeg, MB',
   description:
-    'Book your free on-site landscape consultation with Stonefield Landscaping. We visit your Winnipeg property, discuss your vision, and provide a written project summary — no obligation.',
+    'Book your free on-site landscape consultation with Sunny View Exteriors. We visit your Winnipeg property, discuss your vision, and provide a written project summary — no obligation.',
   openGraph: {
     title: 'Request a Free Landscape Consultation — Winnipeg, MB',
     description:
-      'Book a free on-site landscape consultation with Stonefield Landscaping. No pressure, no obligation — just expert advice for your Winnipeg outdoor space.',
-    url: 'https://stonefieldlandscaping.netlify.app/consultation',
+      'Book a free on-site landscape consultation with Sunny View Exteriors. No pressure, no obligation — just expert advice for your Winnipeg outdoor space.',
+    url: 'https://sunnyviewexteriors.netlify.app/consultation',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1590479773265-7464e5d48118?w=1200&h=630&fit=crop&auto=format&q=80',
         width: 1200,
         height: 630,
-        alt: 'Free landscape consultation — Stonefield Landscaping Winnipeg',
+        alt: 'Free landscape consultation — Sunny View Exteriors Winnipeg',
       },
     ],
   },
-  alternates: { canonical: 'https://stonefieldlandscaping.netlify.app/consultation' },
+  alternates: { canonical: 'https://sunnyviewexteriors.netlify.app/consultation' },
 }
 
 const whyUs = [
@@ -72,7 +72,7 @@ export default function ConsultationPage() {
                 What to Expect
               </p>
               <h3 className="font-display text-2xl font-semibold text-green-deep mb-6">
-                The Stonefield Consultation
+                The Sunny View Consultation
               </h3>
               <ul className="space-y-4">
                 {whyUs.map((item) => (

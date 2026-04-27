@@ -8,22 +8,22 @@ import { services } from '@/data/services'
 export const metadata: Metadata = {
   title: 'Landscape Design & Construction Services — Winnipeg',
   description:
-    'Stonefield Landscaping delivers full-service landscape design and construction in Winnipeg — from on-site consultation and custom design through to complete outdoor build.',
+    'Sunny View Exteriors delivers full-service landscape design and construction in Winnipeg — from on-site consultation and custom design through to complete outdoor build.',
   openGraph: {
     title: 'Landscape Design & Construction Services — Winnipeg',
     description:
-      'Full-service landscape design and construction in Winnipeg, MB. Consultation, custom design, and complete outdoor construction by Stonefield Landscaping.',
-    url: 'https://stonefieldlandscaping.netlify.app/services',
+      'Full-service landscape design and construction in Winnipeg, MB. Consultation, custom design, and complete outdoor construction by Sunny View Exteriors.',
+    url: 'https://sunnyviewexteriors.netlify.app/services',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1632207691143-643e2a9a9361?w=1200&h=630&fit=crop&auto=format&q=80',
         width: 1200,
         height: 630,
-        alt: 'Stonefield Landscaping — professional landscape construction in Winnipeg',
+        alt: 'Sunny View Exteriors — professional landscape construction in Winnipeg',
       },
     ],
   },
-  alternates: { canonical: 'https://stonefieldlandscaping.netlify.app/services' },
+  alternates: { canonical: 'https://sunnyviewexteriors.netlify.app/services' },
 }
 
 const discoverService = services.find((s) => s.id === 'consult')!
@@ -58,7 +58,7 @@ export default function ServicesPage() {
           <p className="text-gold text-[10px] tracking-[0.35em] uppercase font-body font-medium mb-4">A Complete Process</p>
           <h2 className="font-display text-4xl font-light text-green-deep mb-6">From Vision to Reality</h2>
           <p className="text-stone-gray font-body text-sm leading-relaxed">
-            Every Stonefield project follows our proven three-step process — Discover, Design, Craft. It&apos;s how we
+            Every Sunny View Exteriors project follows our proven three-step process — Discover, Design, Craft. It&apos;s how we
             ensure that every landscape we create is exactly what our clients envisioned, built to last.
           </p>
         </div>

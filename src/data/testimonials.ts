@@ -12,7 +12,7 @@ export const testimonials: Testimonial[] = [
     name: 'Lynn & Derek A.',
     location: 'Tuxedo, Winnipeg',
     rating: 5,
-    text: 'Stonefield completely transformed our backyard from a forgotten space into the outdoor living area we always dreamed of. The attention to detail in the stonework and planting plan was extraordinary.',
+    text: 'Sunny View Exteriors completely transformed our backyard from a forgotten space into the outdoor living area we always dreamed of. The attention to detail in the stonework and planting plan was extraordinary.',
   },
   {
     id: '2',
@@ -33,7 +33,7 @@ export const testimonials: Testimonial[] = [
     name: 'The Calloway Family',
     location: 'Waverley Heights, Winnipeg',
     rating: 5,
-    text: "Our outdoor kitchen project was massive in scope, and Owen's team never missed a beat. They worked clean, stayed on schedule, and the finished result is better than any rendering we could have imagined.",
+    text: "Our outdoor kitchen project was massive in scope, and Zohaib's team never missed a beat. They worked clean, stayed on schedule, and the finished result is better than any rendering we could have imagined.",
   },
   {
     id: '5',
@@ -47,6 +47,6 @@ export const testimonials: Testimonial[] = [
     name: 'Paul & Sandra Veitch',
     location: 'Linden Woods, Winnipeg',
     rating: 5,
-    text: "Three years after installation, our landscape looks even better than year one — that tells you everything about the quality of the plants and hardscaping they used. Stonefield builds landscapes that last.",
+    text: "Three years after installation, our landscape looks even better than year one — that tells you everything about the quality of the plants and hardscaping they used. Sunny View Exteriors builds landscapes that last.",
   },
 ]

@@ -11,7 +11,7 @@ const slides = [
     src: 'https://images.unsplash.com/photo-1761637823293-f96835ec5038?w=1920&h=1080&fit=crop&auto=format&q=80',
     alt: 'Stunning natural stone patio with fire feature',
     headline: 'Expert Landscape Design in Winnipeg',
-    subline: "Winnipeg's most trusted landscape design and construction company",
+    subline: "Sunny View Exteriors — Winnipeg's trusted landscaping and exterior services company",
   },
   {
     src: 'https://images.unsplash.com/photo-1727012896963-2fd364e34a99?w=1920&h=1080&fit=crop&auto=format&q=80',
@@ -29,7 +29,7 @@ const slides = [
     src: 'https://images.unsplash.com/photo-1767247795570-8b82bbd7307a?w=1920&h=1080&fit=crop&auto=format&q=80',
     alt: 'Expert stone pathway through lush landscaping',
     headline: 'Craftsmanship in Every Stone',
-    subline: 'Three decades of landscape excellence in Winnipeg and Manitoba',
+    subline: 'Landscape excellence across Winnipeg and Manitoba',
   },
   {
     src: 'https://images.unsplash.com/photo-1765288108580-85f0e03f7b18?w=1920&h=1080&fit=crop&auto=format&q=80',
