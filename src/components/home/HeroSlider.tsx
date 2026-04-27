@@ -91,14 +91,6 @@ export default function HeroSlider() {
           </div>
         </div>
       </div>
-
-      {/* Scroll hint */}
-      <div className="absolute z-10 bottom-8 left-8 md:left-16 lg:left-24 hidden md:flex flex-col items-center gap-2 opacity-50">
-        <div className="w-px h-12 bg-white animate-pulse" />
-        <span className="text-white text-[9px] tracking-[0.25em] uppercase font-body">
-          Scroll
-        </span>
-      </div>
     </div>
   );
 }
