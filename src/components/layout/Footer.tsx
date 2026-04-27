@@ -10,19 +10,19 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="mb-6">
               <div className="font-display text-3xl font-semibold text-white">
-                Stonefield
+                Sunny View
               </div>
               <div className="text-[10px] tracking-[0.25em] uppercase text-gold mt-1 font-body font-medium">
-                Landscaping
+                Exteriors
               </div>
             </div>
             <p className="text-white/60 text-sm font-body leading-relaxed mb-6">
               Creating extraordinary outdoor living spaces in Winnipeg and
-              across Manitoba since 1995.
+              across Manitoba.
             </p>
             <div className="flex gap-3">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/sunnyviewexteriors"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center border border-white/20 hover:border-gold hover:text-gold transition-colors duration-200 rounded-lg"
@@ -31,7 +31,7 @@ export default function Footer() {
                 <Instagram size={15} />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://facebook.com/sunnyviewexteriors"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center border border-white/20 hover:border-gold hover:text-gold transition-colors duration-200 rounded-lg"
@@ -58,20 +58,20 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+12045551234"
+                  href="tel:+12045550100"
                   className="flex items-center gap-3 text-white/60 text-sm font-body hover:text-white transition-colors duration-200"
                 >
                   <Phone size={15} className="text-gold flex-shrink-0" />
-                  (204) 555-1234
+                  (204) 555-0100
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:info@example.com"
+                  href="mailto:info@sunnyviewexteriors.ca"
                   className="flex items-center gap-3 text-white/60 text-sm font-body hover:text-white transition-colors duration-200"
                 >
                   <Mail size={15} className="text-gold flex-shrink-0" />
-                  info@example.com
+                  info@sunnyviewexteriors.ca
                 </a>
               </li>
             </ul>
@@ -134,7 +134,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-xs font-body">
-            © {new Date().getFullYear()} Stonefield Landscaping. All rights
+            © {new Date().getFullYear()} Sunny View Exteriors Inc. All rights
             reserved. Winnipeg, Manitoba.
           </p>
           <div className="flex gap-6">

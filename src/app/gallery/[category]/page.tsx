@@ -18,20 +18,20 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cat = galleryCategories.find((c) => c.id === params.category)
   if (!cat) return {}
-  const canonical = `https://stonefieldlandscaping.netlify.app/gallery/${cat.id}`
+  const canonical = `https://sunnyviewexteriors.netlify.app/gallery/${cat.id}`
   return {
     title: `${cat.label} — Winnipeg Landscape Gallery`,
-    description: `${cat.description} Browse completed ${cat.label.toLowerCase()} projects by Stonefield Landscaping in Winnipeg, MB.`,
+    description: `${cat.description} Browse completed ${cat.label.toLowerCase()} projects by Sunny View Exteriors in Winnipeg, MB.`,
     openGraph: {
       title: `${cat.label} — Winnipeg Landscape Gallery`,
-      description: `${cat.description} See completed projects by Stonefield Landscaping.`,
+      description: `${cat.description} See completed projects by Sunny View Exteriors.`,
       url: canonical,
       images: [
         {
           url: `${cat.coverImage.split('?')[0]}?w=1200&h=630&fit=crop&auto=format&q=80`,
           width: 1200,
           height: 630,
-          alt: `${cat.label} by Stonefield Landscaping — Winnipeg`,
+          alt: `${cat.label} by Sunny View Exteriors — Winnipeg`,
         },
       ],
     },

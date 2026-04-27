@@ -11,25 +11,25 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 import { galleryCategories } from "@/data/gallery";
 
 export const metadata: Metadata = {
-  title: "Stonefield Landscaping — Winnipeg's Premier Landscape Design Company",
+  title: "Sunny View Exteriors — Winnipeg Landscaping & Exterior Services",
   description:
-    "Winnipeg's most trusted landscape design and construction company since 1995. Custom patios, stonework, gardens, and complete outdoor living spaces — built to last in Manitoba's climate.",
+    "Winnipeg's most trusted landscaping and exterior services company. Custom patios, stonework, gardens, and complete outdoor living spaces — built to last in Manitoba's climate.",
   openGraph: {
     title:
-      "Stonefield Landscaping — Winnipeg's Premier Landscape Design Company",
+      "Sunny View Exteriors — Winnipeg Landscaping & Exterior Services",
     description:
-      "Winnipeg's most trusted landscape design and construction company since 1995. Custom patios, stonework, gardens, and complete outdoor living spaces.",
-    url: "https://stonefieldlandscaping.netlify.app",
+      "Winnipeg's most trusted landscaping and exterior services. Custom patios, stonework, gardens, and complete outdoor living spaces.",
+    url: "https://sunnyviewexteriors.netlify.app",
     images: [
       {
         url: "https://images.unsplash.com/photo-1761637823293-f96835ec5038?w=1200&h=630&fit=crop&auto=format&q=80",
         width: 1200,
         height: 630,
-        alt: "Stonefield Landscaping — Winnipeg outdoor living spaces",
+        alt: "Sunny View Exteriors — Winnipeg outdoor living spaces",
       },
     ],
   },
-  alternates: { canonical: "https://stonefieldlandscaping.netlify.app" },
+  alternates: { canonical: "https://sunnyviewexteriors.netlify.app" },
 };
 
 const featuredIds = [
@@ -62,7 +62,7 @@ export default function HomePage() {
             </h2>
             <p className="text-stone-gray font-body leading-relaxed mb-8 text-sm">
               We believe the space behind your home is as important as the space
-              inside it. Stonefield Landscaping specializes in creating
+              inside it. Sunny View Exteriors specializes in creating
               residential landscapes that are as functional as they are
               beautiful — outdoor living areas you&apos;ll actually live in,
               gardens that thrive across Manitoba&apos;s four seasons, and
@@ -86,10 +86,10 @@ export default function HomePage() {
             />
             <div className="absolute -bottom-6 -left-6 w-28 h-28 bg-gold hidden md:flex flex-col items-center justify-center text-white text-center p-4">
               <span className="font-display text-3xl font-semibold leading-none">
-                25+
+                5★
               </span>
               <span className="text-[9px] tracking-wide font-body uppercase mt-1">
-                Years of Excellence
+                Rated Service
               </span>
             </div>
           </div>
@@ -120,10 +120,10 @@ export default function HomePage() {
             </h2>
             <p className="text-white/65 font-body leading-relaxed mb-8 text-sm">
               From corporate campuses and multi-family developments to retail
-              environments and public spaces, Stonefield delivers commercial
-              landscape solutions that elevate your property&apos;s presence and
-              value. We understand the unique demands of commercial projects —
-              scale, durability, and ongoing maintenance.
+              environments and public spaces, Sunny View Exteriors delivers
+              commercial landscape solutions that elevate your property&apos;s
+              presence and value. We understand the unique demands of commercial
+              projects — scale, durability, and ongoing maintenance.
             </p>
             <Link
               href="/winnipeg-commercial-landscaping"

@@ -7,22 +7,22 @@ import { galleryCategories } from '@/data/gallery'
 export const metadata: Metadata = {
   title: 'Landscape Project Gallery — Winnipeg Patios, Gardens & More',
   description:
-    'Browse Stonefield Landscaping project photos across 14 categories — custom patios, stonework, gardens, fire pits, outdoor kitchens, water features, and more. Serving Winnipeg, MB.',
+    'Browse Sunny View Exteriors project photos across 14 categories — custom patios, stonework, gardens, fire pits, outdoor kitchens, water features, and more. Serving Winnipeg, MB.',
   openGraph: {
     title: 'Landscape Project Gallery — Winnipeg Patios, Gardens & More',
     description:
-      'Browse completed landscape projects by Stonefield Landscaping — patios, gardens, fire pits, outdoor kitchens, water features, and more in Winnipeg, MB.',
-    url: 'https://stonefieldlandscaping.netlify.app/gallery',
+      'Browse completed landscape projects by Sunny View Exteriors — patios, gardens, fire pits, outdoor kitchens, water features, and more in Winnipeg, MB.',
+    url: 'https://sunnyviewexteriors.netlify.app/gallery',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1761637823293-f96835ec5038?w=1200&h=630&fit=crop&auto=format&q=80',
         width: 1200,
         height: 630,
-        alt: 'Stonefield Landscaping project gallery — Winnipeg',
+        alt: 'Sunny View Exteriors project gallery — Winnipeg',
       },
     ],
   },
-  alternates: { canonical: 'https://stonefieldlandscaping.netlify.app/gallery' },
+  alternates: { canonical: 'https://sunnyviewexteriors.netlify.app/gallery' },
 }
 
 export default function GalleryPage() {
@@ -50,7 +50,7 @@ export default function GalleryPage() {
           <h2 className="font-display text-4xl font-light text-green-deep mb-4">14 Project Categories</h2>
           <p className="text-stone-gray font-body text-sm leading-relaxed">
             From intimate residential patios to expansive estate landscapes — explore the full range of what
-            Stonefield Landscaping creates.
+            Sunny View Exteriors creates.
           </p>
         </div>
 

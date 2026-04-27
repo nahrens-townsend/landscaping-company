@@ -22,7 +22,7 @@ const config: Config = {
       },
       fontFamily: {
         display: ['var(--font-display)', 'Impact', 'Arial Narrow', 'sans-serif'],
-        body: ['var(--font-body)', 'system-ui', 'sans-serif'],
+        body: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
       },
       keyframes: {
         fadeIn: {

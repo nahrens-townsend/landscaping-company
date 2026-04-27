@@ -5,24 +5,24 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 import ContactForm from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
-  title: 'Contact Stonefield Landscaping — Winnipeg, Manitoba',
+  title: 'Contact Sunny View Exteriors — Winnipeg, Manitoba',
   description:
-    "Get in touch with Stonefield Landscaping. We're here to answer your questions and discuss your Winnipeg landscape project. Call, email, or send us a message.",
+    "Get in touch with Sunny View Exteriors. We're here to answer your questions and discuss your Winnipeg landscaping project. Call, email, or send us a message.",
   openGraph: {
-    title: 'Contact Stonefield Landscaping — Winnipeg, Manitoba',
+    title: 'Contact Sunny View Exteriors — Winnipeg, Manitoba',
     description:
-      "Ready to transform your outdoor space? Contact Stonefield Landscaping in Winnipeg, MB — call, email, or fill in the form.",
-    url: 'https://stonefieldlandscaping.netlify.app/contact',
+      "Ready to transform your outdoor space? Contact Sunny View Exteriors in Winnipeg, MB — call, email, or fill in the form.",
+    url: 'https://sunnyviewexteriors.netlify.app/contact',
     images: [
       {
         url: 'https://images.unsplash.com/photo-1665265368388-dbe023c7b0dd?w=1200&h=630&fit=crop&auto=format&q=80',
         width: 1200,
         height: 630,
-        alt: 'Contact Stonefield Landscaping in Winnipeg',
+        alt: 'Contact Sunny View Exteriors in Winnipeg',
       },
     ],
   },
-  alternates: { canonical: 'https://stonefieldlandscaping.netlify.app/contact' },
+  alternates: { canonical: 'https://sunnyviewexteriors.netlify.app/contact' },
 };
 
 export default function ContactPage() {
@@ -31,7 +31,7 @@ export default function ContactPage() {
       <div className="relative h-72 md:h-80 bg-green-deep overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1665265368388-dbe023c7b0dd?w=1920&h=500&fit=crop&auto=format&q=80"
-          alt="Stonefield Landscaping office"
+          alt="Sunny View Exteriors office"
           fill
           className="object-cover opacity-30"
           priority
@@ -75,14 +75,14 @@ export default function ContactPage() {
                 {
                   Icon: Phone,
                   label: "Phone",
-                  value: "(204) 555-0182",
-                  href: "tel:+12045550182",
+                  value: "(204) 555-0100",
+                  href: "tel:+12045550100",
                 },
                 {
                   Icon: Mail,
                   label: "Email",
-                  value: "hello@example.ca",
-                  href: "mailto:hello@example.ca",
+                  value: "info@sunnyviewexteriors.ca",
+                  href: "mailto:info@sunnyviewexteriors.ca",
                 },
                 {
                   Icon: MapPin,
