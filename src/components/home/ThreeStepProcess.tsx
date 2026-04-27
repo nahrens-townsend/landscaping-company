@@ -43,10 +43,10 @@ export default function ThreeStepProcess() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16">
         {steps.map(({ number, Icon, title, description, href }) => (
-          <div key={number} className="relative group">
-            <div className="text-green-deep/8 font-display text-2xl md:text-4xl font-light leading-none mb-2 select-none">
+          <div key={number} className="relative group overflow-hidden">
+            <span className="absolute -top-3 right-1 font-display text-[6rem] font-light leading-none text-green-deep/[0.06] select-none pointer-events-none">
               {number}
-            </div>
+            </span>
             <div className="w-11 h-11 flex items-center justify-center bg-green-deep text-white mb-6 group-hover:bg-green-mid transition-colors duration-300 rounded-lg">
               <Icon size={20} />
             </div>

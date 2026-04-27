@@ -1,45 +1,45 @@
-'use client'
+"use client";
 
-import { useState, useEffect, useRef } from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import { motion, AnimatePresence } from 'framer-motion'
+import { useState, useEffect, useRef } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { motion, AnimatePresence } from "framer-motion";
 
 const slides = [
   {
-    src: 'https://images.unsplash.com/photo-1761637823293-f96835ec5038?w=1920&h=1080&fit=crop&auto=format&q=80',
-    alt: 'Stunning natural stone patio with fire feature',
+    src: "https://images.unsplash.com/photo-1761637823293-f96835ec5038?w=1920&h=1080&fit=crop&auto=format&q=80",
+    alt: "Stunning natural stone patio with fire feature",
   },
   {
-    src: 'https://images.unsplash.com/photo-1727012896963-2fd364e34a99?w=1920&h=1080&fit=crop&auto=format&q=80',
-    alt: 'Beautiful perennial garden in full bloom',
+    src: "https://images.unsplash.com/photo-1727012896963-2fd364e34a99?w=1920&h=1080&fit=crop&auto=format&q=80",
+    alt: "Beautiful perennial garden in full bloom",
   },
   {
-    src: 'https://images.unsplash.com/photo-1766087752966-b9a7b058b7da?w=1920&h=1080&fit=crop&auto=format&q=80',
-    alt: 'Elegant outdoor kitchen and entertainment space',
+    src: "https://images.unsplash.com/photo-1766087752966-b9a7b058b7da?w=1920&h=1080&fit=crop&auto=format&q=80",
+    alt: "Elegant outdoor kitchen and entertainment space",
   },
   {
-    src: 'https://images.unsplash.com/photo-1767247795570-8b82bbd7307a?w=1920&h=1080&fit=crop&auto=format&q=80',
-    alt: 'Expert stone pathway through lush landscaping',
+    src: "https://images.unsplash.com/photo-1767247795570-8b82bbd7307a?w=1920&h=1080&fit=crop&auto=format&q=80",
+    alt: "Expert stone pathway through lush landscaping",
   },
   {
-    src: 'https://images.unsplash.com/photo-1765288108580-85f0e03f7b18?w=1920&h=1080&fit=crop&auto=format&q=80',
-    alt: 'Serene water feature surrounded by native plantings',
+    src: "https://images.unsplash.com/photo-1765288108580-85f0e03f7b18?w=1920&h=1080&fit=crop&auto=format&q=80",
+    alt: "Serene water feature surrounded by native plantings",
   },
-]
+];
 
 export default function HeroSlider() {
-  const [current, setCurrent] = useState(0)
-  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
+  const [current, setCurrent] = useState(0);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     timerRef.current = setInterval(() => {
-      setCurrent((c) => (c + 1) % slides.length)
-    }, 6000)
+      setCurrent((c) => (c + 1) % slides.length);
+    }, 6000);
     return () => {
-      if (timerRef.current) clearInterval(timerRef.current)
-    }
-  }, [])
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, []);
 
   return (
     <div
@@ -54,7 +54,7 @@ export default function HeroSlider() {
           initial={{ opacity: 0, scale: 1.04 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 1.6, ease: 'easeInOut' }}
+          transition={{ duration: 1.6, ease: "easeInOut" }}
           className="absolute inset-0"
         >
           <Image
@@ -72,15 +72,9 @@ export default function HeroSlider() {
       {/* Static content */}
       <div className="relative z-10 h-full flex items-end pb-28 px-8 md:px-16 lg:px-24">
         <div className="max-w-3xl">
-          <p className="text-gold text-[10px] tracking-[0.35em] uppercase mb-5 font-body font-medium">
-            Winnipeg, Manitoba
-          </p>
-          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-light text-white leading-none mb-6">
+          <h1 className="font-display text-5xl md:text-5xl lg:text-7xl font-light text-white leading-none mb-6">
             Expert Landscape Design in Winnipeg
           </h1>
-          <p className="text-white/75 text-lg md:text-xl font-body font-light max-w-xl leading-relaxed mb-10">
-            Sunny View Exteriors — Winnipeg&apos;s trusted landscaping and exterior services company
-          </p>
           <div className="flex flex-wrap gap-4">
             <Link
               href="/consultation"
@@ -101,8 +95,10 @@ export default function HeroSlider() {
       {/* Scroll hint */}
       <div className="absolute z-10 bottom-8 left-8 md:left-16 lg:left-24 hidden md:flex flex-col items-center gap-2 opacity-50">
         <div className="w-px h-12 bg-white animate-pulse" />
-        <span className="text-white text-[9px] tracking-[0.25em] uppercase font-body">Scroll</span>
+        <span className="text-white text-[9px] tracking-[0.25em] uppercase font-body">
+          Scroll
+        </span>
       </div>
     </div>
-  )
+  );
 }
